@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>水平居中总结——不定宽块状元素方法（一）</title>
+	<style>
+		table{
+			margin: 0 auto;
+		}
+
+		/* 下面是任务区代码 */
+
+		.wrap{
+			background-color: #ccc;
+			position: relative;
+			left: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<table>
+			<tbody>
+				<tr>
+					<td>
+						<ul>
+							<li>我是第一行文本</li>
+							<li>我是第二行文本</li>
+							<li>我是第三行文本</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="wrap">
+		设置我所在的div容器水平居中
+	</div>
+</body>
+</html>
